@@ -1,0 +1,13 @@
+$primary-color: #3A0CA3;
+$secondary-color: #4361EE;
+$tertiary-color: #4CC9F0;
+$quaternary-color: #7209B7;
+$quinary-color: #F72585;
+ 
+:export {
+  primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
+  tertiaryColor: $tertiary-color;
+  quaternaryColor: $quaternary-color;
+  quinaryColor: $quinary-color;
+}

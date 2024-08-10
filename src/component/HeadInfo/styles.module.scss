@@ -1,0 +1,32 @@
+@use "../../app/variables" as v;
+
+.ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: v.$primary-color;
+}
+
+.ctn__left {
+  display: flex;
+}
+
+.ctn-item {
+  display: flex;
+  align-items: center;
+  svg {
+    width: 16px;
+    height: 16px;
+    color: #FFFFFF;
+    margin-right: 3px;
+  }
+  p {
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+}
+
+.ctn-item.left {
+  margin-right: 15px;
+}
