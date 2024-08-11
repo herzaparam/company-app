@@ -3,9 +3,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <p>asdasd</p>
+    <>
+      <main style={{ minHeight: "200vh" }}>
+        <p>asdasd</p>
+      </main>
       <Footer />
-    </main>
+    </>
   );
 }
