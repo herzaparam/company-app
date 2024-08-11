@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/styles/footerinfo.module.scss";
+import styles from "@/styles/component/footerinfo.module.scss";
 import classNames from "classnames/bind";
 
 const cx = classNames.bind(styles);

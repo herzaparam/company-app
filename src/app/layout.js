@@ -4,7 +4,7 @@ import HeadInfo from "@/component/HeadInfo";
 import FooterInfo from "@/component/FooterInfo";
 
 const inter = Poppins({
-  weight: ['400', '600'],
+  weight: ['400', '600', '700'],
   style: ['normal', 'italic'],
   subsets: ["latin"]
 });
