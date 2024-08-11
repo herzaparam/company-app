@@ -1,0 +1,59 @@
+@use "./variables" as v;
+
+.service-heading {
+  color: v.$primary-color;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.02rem;
+}
+.service-title {
+  color: #0b090a;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
+}
+
+.sect-service {
+  padding: 2em 1em;
+  background-color: #d4d4d4;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: v.$md) {
+  .service-heading {
+    font-size: 1.1rem;
+    letter-spacing: 0.03rem;
+  }
+  .service-title {
+    font-size: 1.5rem;
+    letter-spacing: 0.03rem;
+  }
+  .sect-service {
+    padding: 2.5em 2em;
+  }
+}
+@media (min-width: v.$lg) {
+  .service-heading {
+    letter-spacing: 0.04rem;
+  }
+  .service-title {
+    letter-spacing: 0.04rem;
+  }
+  .sect-service {
+    padding: 3em 4em;
+  }
+}
+@media (min-width: v.$xl) {
+  .service-heading {
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+  }
+  .service-title {
+    font-size: 1.75rem;
+    letter-spacing: 0.05rem;
+  }
+  .sect-service {
+    padding: 3em 6em;
+  }
+}
