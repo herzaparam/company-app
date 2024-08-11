@@ -6,7 +6,7 @@ const cx = classNames.bind(styles);
 
 function HeadInfo() {
   return (
-    <div className={cx({ ctn: true })}>
+    <header className={cx({ ctn: true })}>
       <span className={cx({ "ctn-item": true })}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ function HeadInfo() {
           <p>support@rezilla.com</p>
         </span>
       </div>
-    </div>
+    </header>
   );
 }
 

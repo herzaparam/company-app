@@ -1,47 +1,44 @@
 @use "./variables" as v;
 
 .ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b090a;
+  padding: 3px 1em;
+  p {
+    font-size: 10px;
+    color: #aaaaaa;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+.ctn-item {
   display: none;
 }
 
 @media (min-width: v.$md) {
   .ctn {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 5px 2em;
-    background-color: v.$primary-color;
-  }
-
-  .ctn__left {
-    display: flex;
+    p {
+      font-size: 12px;
+    }
   }
 
   .ctn-item {
     display: flex;
     align-items: center;
-    svg {
-      width: 12px;
-      height: 12px;
-      color: #ffffff;
-      margin-right: 3px;
-    }
-    p {
-      font-size: 10px;
-      color: #ffffff;
-    }
-  }
-
-  .ctn-item.left {
-    margin-right: 15px;
+    justify-content: space-between;
+    flex-basis: 40%;
   }
 }
 
 @media (min-width: v.$lg) {
   .ctn {
     padding: 7px 4em;
-  }
-  .ctn-item {
     p {
       font-size: 12px;
     }
@@ -51,14 +48,11 @@
 @media (min-width: v.$xl) {
   .ctn {
     padding: 7px 6em;
-  }
-  .ctn-item {
-    svg {
-      width: 16px;
-      height: 16px;
-    }
     p {
       font-size: 14px;
     }
+  }
+  .ctn-item {
+    flex-basis: 30%;
   }
 }
