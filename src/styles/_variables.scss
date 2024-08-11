@@ -3,6 +3,12 @@ $secondary-color: #4361EE;
 $tertiary-color: #4CC9F0;
 $quaternary-color: #7209B7;
 $quinary-color: #F72585;
+
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+$xxl: 1536px;
  
 :export {
   primaryColor: $primary-color;

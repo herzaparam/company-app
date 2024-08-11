@@ -1,9 +1,9 @@
 import { Poppins } from "next/font/google";
-import "./globals.css";
+import "../styles/_globals.scss";
 import HeadInfo from "@/component/HeadInfo";
 
 const inter = Poppins({
-  weight: ['400'],
+  weight: ['400', '600'],
   style: ['normal', 'italic'],
   subsets: ["latin"]
 });

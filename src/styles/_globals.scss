@@ -1,0 +1,38 @@
+:root {}
+
+@media (prefers-color-scheme: dark) {}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+  color: #444444;
+  font-size: 40px;
+}
+
+h2 {
+  color: #444444;
+  font-size: 28px;
+}
+
+h3 {
+  color: #444444;
+  font-size: 28px;
+}
+
+h4 {
+  font-weight: 600;
+  color: #444444;
+}
+
+h5 {
+  color: #444444;
+}
+
+p {
+  color: #3C3C3C;
+}
